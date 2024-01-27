@@ -1,0 +1,123 @@
+/* Temel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: rgb(238,214,102);
+background: linear-gradient(90deg, rgba(238,214,102,1) 0%, rgba(219,214,188,1) 0%, rgba(253,246,214,1) 100%);}
+  
+  h1, h2, p {
+    color: #000000;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    color: #fdf6d6;
+    border: 1px solid #000000;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #000000;
+  }
+  
+  /* Not defteri stil */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .note {
+    background-color: #fdf6d6; /* Not defteri arkaplan rengi */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c8bfb4;
+    border-radius: 5px;
+  }
+  
+  .note h2 {
+    margin-top: 0;
+  }
+  
+  .note p {
+    margin-bottom: 5px;
+    background-color: #fdf6d6; /* İçerik arkaplan rengi */
+  }
+  
+  .note .date {
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar {
+    margin: 20px;
+    background-color: #fdf6d6; /* Sarı arkaplan rengi */
+    background-size: cover;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ffffff; /* Navbar üzerine gelindiğindeki arkaplan rengi */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .note {
+    text-align: left;
+  }
+  
+  .note p {
+    text-align: justify;
+  }
+  
+  .note-form input[type="text"],
+  .note-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #fdf6d6; /* Beyaz arkaplan rengi */
+  }
+  
